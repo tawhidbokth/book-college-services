@@ -2,9 +2,36 @@
 import { useState } from "react";
 
 const colleges = [
-  { id: 1, name: "Oxford International College", image: "/college-1.jpg" },
-  { id: 2, name: "Harvard University", image: "/college-2.jpg" },
-  { id: 3, name: "Stanford College", image: "/college-3.jpg" },
+  {
+    id: 1,
+    name: "Oxford International College",
+    admissionDates: "Aug 1 - Sep 30",
+    events: "Orientation, Workshop",
+    research: "AI and Robotics",
+    sports: "Football, Basketball",
+    image:
+      "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?auto=format&fit=crop&w=800&q=80",
+  },
+  {
+    id: 2,
+    name: "Harvard University",
+    admissionDates: "Sep 1 - Oct 15",
+    events: "Seminars, Alumni Meet",
+    research: "Medical Sciences",
+    sports: "Tennis, Swimming",
+    image:
+      "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&w=800&q=80",
+  },
+  {
+    id: 3,
+    name: "Stanford College",
+    admissionDates: "Jul 15 - Aug 31",
+    events: "Tech Fest, Career Fair",
+    research: "Computer Science",
+    sports: "Baseball, Track",
+    image:
+      "https://images.unsplash.com/photo-1549924231-f129b911e442?auto=format&fit=crop&w=800&q=80",
+  },
 ];
 
 export default function SearchSection() {
